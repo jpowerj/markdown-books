@@ -1,0 +1,5 @@
+# Markdown-Formatted Books Library {.unnumbered}
+
+This repo just collects some books I've referenced / shared / ranted about enough to compile the entire book, or at least some significant portion(s) of it, to Markdown format. Usually I would just share it on GitHub Gists, but given the trouble I had earlier today trying to find a book I saved there years ago, I decided to collect them all in this one repo instead.
+
+Some were transcribed by hand (for books where I was unable to find a digitized version), into single `.md` files, but others (*Killing Hope*, for example) were converted to folders containing one `.md` file per chapter, to demonstrate how to use my [`epub-to-md` software](https://github.com/jpowerj/epub-to-md).
