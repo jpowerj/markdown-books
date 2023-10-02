@@ -3,14 +3,21 @@ project:
   output-dir: ../docs/chomsky-hr2/
 
 book:
-  title: "."
-  author: "Norah Jones"
+  title: "The Political Economy of Human Rights, Volume II: After the Cataclysm"
+  subtitle: "Postwar Indochina and the Reconstruction of Imperial Ideology"
+  author:
+    - "Noam Chomsky"
+    - "Edward S. Herman"
   date: "9/29/2023"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - ch01-The_Setting.qmd
+    - ch02-Precedents.qmd
+    - ch03-Refugees.qmd
+    - ch04-Vietnam.qmd
+    - ch05-Laos.qmd
+    - ch06-Cambodia.qmd
+    - ch07-Final_Comments.qmd
 
 bibliography: references.bib
 
