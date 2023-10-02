@@ -1,4 +1,13 @@
-# Markdown-Formatted Books Library {.unnumbered}
+---
+title: "Markdown-Formatted Books Library"
+listing:
+  type: default
+  contents:
+    - books.yml
+format:
+  html:
+    cache: false
+---
 
 This repo just collects some books I've referenced / shared / ranted about enough to compile the entire book, or at least some significant portion(s) of it, to Markdown format. Usually I would just share it on GitHub Gists, but given the trouble I had earlier today trying to find a book I saved there years ago, I decided to collect them all in this one repo instead.
 

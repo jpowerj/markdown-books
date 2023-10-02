@@ -5,6 +5,7 @@ project:
 book:
   title: "The Political Economy of Human Rights, Volume II: After the Cataclysm"
   subtitle: "Postwar Indochina and the Reconstruction of Imperial Ideology"
+  cover-image: cover.jpg
   author:
     - "Noam Chomsky"
     - "Edward S. Herman"
@@ -16,14 +17,21 @@ book:
     - ch03-Refugees.qmd
     - ch04-Vietnam.qmd
     - ch05-Laos.qmd
-    - ch06-Cambodia.qmd
+    - part: ch06-Cambodia.qmd
+      chapters:
+      - ch06-cambodia/ch06-1.qmd
+      - ch06-cambodia/ch06-2.qmd
+      - ch06-cambodia/ch06-3.qmd
+      - ch06-cambodia/ch06-4.qmd
     - ch07-Final_Comments.qmd
+    - references.qmd
 
-bibliography: references.bib
+bibliography: After_the_Cataclysm.bib
 
 format:
   html:
     theme: cosmo
+    css: "style.css"
   #pdf:
   #  documentclass: scrreprt
 

@@ -1,24 +1,26 @@
 project:
-  type: book
+  type: website
   #output-dir: docs
+  render:
+    - "*.qmd"
+    - "!*.md"
 
-book:
-  title: "."
-  author: "Norah Jones"
-  date: "9/29/2023"
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+website:
+  title: "Markdown-Formatted Books"
+  sidebar:
+    contents:
+      - index.qmd
+      - intro.qmd
+      - summary.qmd
+      - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
+    css: styles.css
+    toc: true
 
 
 
